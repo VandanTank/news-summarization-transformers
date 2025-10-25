@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor specific files (optional but good practice)
+.vscode/
+.idea/
+
+# OS specific files (optional)
+.DS_Store
+Thumbs.db
+
+# Streamlit cache (if any created locally)
+.streamlit/secrets.toml
+
+# Ignore processed data files
+tokenized_data/
+tokenized_data.zip
