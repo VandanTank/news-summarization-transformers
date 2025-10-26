@@ -64,7 +64,7 @@ An interactive Streamlit app demonstrates the fine-tuned PEGASUS model.
 
 ![Streamlit Demo](./streamlit_screenshot.png)
 
-[*Optional: Add Link to Deployed Streamlit Cloud App Here*]
+[**Live Demo on Streamlit Community Cloud**](https://news-summarization-transformers-vt.streamlit.app)
 
 ## 📁 File Structure
 ├── PEGASUS-best-finetuned/ # Fine-tuned PEGASUS model files ├── venv/ # Virtual environment (add to .gitignore) ├── 01_Data_Exploration.ipynb # Data loading and initial analysis ├── 02_Model_Preprocessing.ipynb # Tokenization and data preparation ├── 03_Model_Training.ipynb # Model fine-tuning (run in Colab) ├── app.py # Streamlit application script ├── requirements.txt # Python dependencies └── README.md # This documentation file
