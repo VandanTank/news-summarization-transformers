@@ -6,8 +6,8 @@ import torch # Import torch to check for GPU availability
 
 # --- Configuration ---
 MODEL_NAME = "PEGASUS"
-# This path points to the folder you downloaded and unzipped from Google Drive
-MODEL_PATH = "./PEGASUS-best-finetuned" 
+# Load model directly from Hugging Face Hub
+MODEL_PATH = "VandanTank/PEGASUS-best-finetuned"
 
 # --- Model Loading ---
 # Use Streamlit's caching to load the model only once
