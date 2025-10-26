@@ -22,3 +22,6 @@ Thumbs.db
 # Ignore processed data files
 tokenized_data/
 tokenized_data.zip
+
+# Ignore large model file handled separately
+PEGASUS-best-finetuned/model.safetensors

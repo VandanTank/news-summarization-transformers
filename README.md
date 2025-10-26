@@ -62,19 +62,20 @@ While PEGASUS excelled in metrics, manual inspection revealed important limitati
 An interactive web application was built using Streamlit to demonstrate the fine-tuned PEGASUS model.
 
 **To run locally:**
-1.  Clone this repository.
-2.  Navigate to the project directory.
-3.  Set up and activate a Python virtual environment.
-4.  Install dependencies:
+1. Clone this repository.
+2. **Download the fine-tuned model weights (`model.safetensors` - Approx. 2.1 GiB) from [this Google Drive link](https://drive.google.com/file/d/1gui4hSjzA6LnQefdVR5r3_T8ObmexZvG/view?usp=sharing)**.
+3. Place the downloaded `model.safetensors` file inside the `PEGASUS-best-finetuned` folder within the cloned repository.
+4. Navigate to the project directory.
+5. Set up and activate a Python virtual environment.
+6. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-5.  Run the Streamlit app:
+7. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
 
-[*(Recommendation: Insert a screenshot of your running Streamlit app here)*]
 `![Streamlit Demo](./streamlit_screenshot.png)`
 
 [*(Optional but Recommended) Insert Link to Deployed Streamlit Cloud App Here]*
