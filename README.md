@@ -50,17 +50,18 @@ While PEGASUS achieved the best metrics, manual inspection revealed limitations:
 An interactive Streamlit app demonstrates the fine-tuned PEGASUS model.
 
 **To run locally:**
-1.  Clone repository.
-2.  Download model weights (`model.safetensors` - Approx. 2.1 GiB) from [Google Drive link](https://drive.google.com/file/d/1gui4hSjzA6LnQefdVR5r3_T8ObmexZvG/view?usp=sharing).
-3.  Place `model.safetensors` inside the `PEGASUS-best-finetuned` folder.
-4.  Set up Python environment and install dependencies:
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Set up and activate a Python virtual environment.
+4. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-5.  Run the app:
+5. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
+    *(Note: The fine-tuned PEGASUS model (~2.1 GiB) will be downloaded automatically from the Hugging Face Hub the first time you run the app.)*
 
 ![Streamlit Demo](./streamlit_screenshot.png)
 
